@@ -35,7 +35,8 @@ us work together to revolutionize education and help teachers prepare students f
 - To practice collaboration, communication, and task management skills
 - To learn about the different roles and responsibilities involved in a software development project
 
-## Submission Instructions:
+## Submission Instructions: 
+### Charles & Eileen [Team Management Doc](https://docs.google.com/document/d/1GTlsFiyFY_gNzBMgdqvZcsa30S53Qrotz4bweFAXFXI/edit?usp=sharing) 
 1. Form teams of 2-3 people.  
 2. Assign roles and assign responsibilities to each team member based on their strengths and interests.
 3. Clone the project repository and add your team members as collaborators.  Decide if you want each person to work on a fork or if you want to just use one repository.
