@@ -20,11 +20,10 @@ Your team's GitHub Project board should be actively used and maintained througho
 should update the board regularly to reflect the current state of your project, and use it as a central hub for tracking
 progress, assigning tasks, and communicating with your team members.
 
-## Project Management Improvement Report
+## Project Management Improvement Report 
+## Charles & Eileen - [Project Management Report (PPT Presentation) Link](https://docs.google.com/presentation/d/1aajGmWjBMKrQbNNSkXqsnJ9crokVw-7E_8eOlXFeMfI/edit?usp=sharing) 
 
-At the end of the assignment, you will create a presentation that explains why your team chose the project management
-methodology. Your report should explain what you can improve in the next sprint and have any measurable indicators that
-you can use to judge if your improvements result in improvements to your teams efficiency or product quality.
+At the end of the assignment, you will create a presentation that explains why your team chose the project management methodology. Your report should explain what you can improve in the next sprint and have any measurable indicators that you can use to judge if your improvements result in improvements to your teams efficiency or product quality.
 
 # Report Instructions - Presentation PPT file with no more than 10 slides
 1. A short introduction that explains why your team chose the project management system.
@@ -37,7 +36,7 @@ you can use to judge if your improvements result in improvements to your teams e
    3. Add a link to your productivity task log file on your repository  
 
 ## Team Productivity Log
-
+## Charles & Eileen - [team_productivity_log.md](https://github.com/chwicklund/mywebclass-simulation-intermediate/blob/master/team_productivity_log.md)
 Create a table in a markdown file on your repository and share it with your team. Add columns for issue title,story points, issue link,
 status, assigned to, assigned on, completed on, category, status notes. Each time a team member completes a task in the project
 they need to create an issue on GitHub and add that link to this document.  Tasks can be the following categories: Feature, Bug, Docs, or Devops Task  
