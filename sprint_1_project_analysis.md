@@ -22,66 +22,86 @@ So, let's get cooking, MyWebClassers! By adopting lean and agile practices, we c
 ## Step 1 - Create a rough draft of Themes, Initiatives, and Epics for the project:
 
 ### Requirements by Charles & Eileen (see list below, or [Project Requirement Analysis Doc](https://docs.google.com/document/d/12GCZA53vmLjIIR0zH1ZvkNlxDWiLG00QO8CI45ryqt8/edit?usp=sharing))
-  ### Themes
-  1. Content creation and curation
-  2. Website development and deployment
-  3. Analytics and data collection
-  4. Testing
 
-  ### Initiatives
-  1. Develop and publish high-quality content on Docker, containerization, and GitHub
-  2. Build a user-friendly website with intuitive navigation and responsive design
-  3. Collect and analyze data on user behavior to improve website performance
-  4. Ensure website functionality meets user requirements through comprehensive testing
+### Themes
+- Testing
+- DevOps
+- Development
+- Management
 
-  ### Epics
-  1. Create and curate Docker and GitHub content
-  2. Set up a development environment for website changes and improvements
-  3. Develop website structure and layout
-  4. Customize website template with branding and visual elements
-  5. Test site functionality using pytest & Playwright
-  6. Deploy website updates and improvements in a timely and efficient manner
-  7. Set up and configure Google Analytics
-  8. Monitor website traffic and user behavior
-  9. Analyze Google Analytics data
+### Initiatives
+#### Front-End Testing
+- Implement pages with different CSS frameworks
+- Test Next.js performance
+- Automate browser testing
+- Measure page load metrics
+- Include industry statistics in the final report
 
-  ### User Stories
-  1. As a user, I want to read informative blog posts and tutorials on Docker and containerization
-  2. As a user, I want to read informative blog posts and tutorials on GitHub
-  3. As a user, I want to easily navigate the website to find the information I need
-  4. As a user, I want the website to look visually appealing and reflect the branding of the company
-  5. As a user, I want the website to have features that enhance my user experience, such as a search bar or interactive elements
-  6. As a user, I want to be able to understand how my data is collected, stored, and used by the website so that I can make informed decisions about using the website
-  7. As a website owner, I want to set up Google Analytics to collect data on user behavior
-  8. As a website owner, I want to monitor website traffic and user behavior to identify areas for improvement
-  9. As a website owner, I want to analyze Google Analytics data to make data-driven decisions to improve website performance
-  10. As a website owner, I want to ensure website functionality meets user requirements through comprehensive testing
+#### Backend Testing
+- Test Oracle server with artillery and Playwright
 
-  ### Tasks
-  #### Content creation and curation
-  - Write blog posts and tutorials on Docker and containerization
-  - Write blog posts and tutorials on GitHub
-  - Find and curate external resources on Docker, containerization, and GitHub
+#### DevOps Tools Testing and Evaluation
+- Test and evaluate node package managers
+- Test and evaluate build tools
+- Implement and check DevOps pipeline with GitHub Actions
+- Include checks for coding standards
+- Generate LightHouse report with videos and screenshots
+- Automatically test W3C validation, handicap accessibility, and JavaScript style
+- Run CodeQL using a GitHub action
+- Run ESLint and upload the report to GitHub Actions
+- Measure relevant metrics
+- Create easy-to-follow instructions
+- Create a document explaining the tools and results of tests
 
-  #### Website development and deployment
-  - Set up development environment with necessary tools (e.g. text editor, version control)
-  - Choose a website template that meets the needs of the website
-  - Customize the website template with branding and visual elements
-  - Develop website structure and layout using HTML and CSS
-  - Implement website features using JavaScript and/or third-party plugins
-  - Write automated tests for website functionality using pytest
-  - Perform manual testing to ensure website functionality meets user requirements
-  - Deploy website to production environment using a web hosting service
+#### Development
+- Conduct legal research and implement necessary changes
+- Conduct internationalization research and implement features
+- Conduct SEO research and implement changes
+- Conduct web accessibility research and implement changes
+- Develop a responsive content template and homepage
+- Implement GDPR requirements with Google Analytics
 
-  #### Analytics and data collection
-  - Create a Google Analytics account and set up tracking code on website
-  - Define website goals and conversion events in Google Analytics
-  - Monitor website traffic and user behavior using Google Analytics reports
-  - Analyze Google Analytics data to identify user needs and preferences, and make data-driven decisions to improve website performance.
+#### Management
+- Identify metrics for each category
+- Measure relevant metrics
+- Include industry statistics in the final report
+- Keep a log for each metric in a Google sheet and link to it on your Readme
 
-  #### Testing
-  - Write automated tests for website functionality using pytest
-  - Perform manual testing to ensure website functionality meets user requirements.
+### User Stories
+#### Front-End Testing
+- As a developer, I want to choose and implement different CSS frameworks to compare performance and design.
+- As a tester, I want to use Playwright to automate browser testing of the website to ensure functionality and compatibility with different frameworks.
+- As a manager, I want to measure the website's page load time, accessibility score, and other relevant metrics to improve performance and user experience.
+- As a writer, I want to include industry statistics in the final report to provide context and benchmarking for the website's metrics.
+
+#### Backend Testing
+- As a developer, I want to test the Oracle server with artillery and Playwright to evaluate performance and functionality.
+
+#### DevOps Tools Testing and Evaluation
+- As a developer, I want to test and evaluate different node package managers to determine which one is the fastest, so that I can improve the development and deployment speed.
+- As a developer, I want to test and evaluate different node package managers to determine which one is the fastest, so that I can improve the development and deployment speed.
+- As a developer, I want to test and evaluate build tools like Webpack, Vite, and EsBuild to determine their efficiency, so that I can improve the development and deployment speed.
+- As a developer, I want to implement and check the DevOps pipeline using GitHub Actions for quality control, so that I can ensure code quality and compliance with coding standards.
+- As a developer, I want to generate a LightHouse Report with videos and screenshots of failed tests when GitHub actions run and automatically upload it to view in GitHub Actions, so that I can ensure website performance and compliance with accessibility and best practices standards.
+- As a developer, I want to automatically test W3C validation, handicap accessibility, and JavaScript style, so that I can ensure compliance with coding standards and accessibility for users with disabilities.
+- As a developer, I want to run CodeQL using a GitHub action and upload the report to GitHub Actions, so that I can ensure code quality and compliance with coding standards.
+- As a developer, I want to run ESLint and upload the report to GitHub Actions, so that I can ensure code quality and compliance with coding standards.
+- As a developer, I want to create easy-to-follow instructions for local installation and how the developer should use the tools above, so that other developers can use the same tools and follow the same standards.
+- As a developer, I want to measure the following metrics: deployment time, developer environment setup time, test running time, and other relevant statistics, so that I can improve the development and deployment speed.
+- As a developer, I want to create a document that explains my tools and how I use them, as well as the results of my test showing the relevant metrics I collected, so that other developers can understand how to use the tools and interpret the results.
+
+#### DevOps Tools Testing and Evaluation
+- As a legal expert, I want to conduct research to ensure that the website complies with relevant laws and regulations, so that we can avoid legal issues and create a trustworthy platform for users.
+- As an internationalization specialist, I want to conduct research and implement internationalization features for the website, so that users from different countries and cultures can access the website in their preferred language and with culturally relevant content.
+- As an SEO specialist, I want to conduct research, implement changes, and perform testing, so that the website can improve its visibility and ranking on search engines and attract more users.
+- As an accessibility expert, I want to conduct web accessibility research, implement changes, perform testing, and resolve any issues that arise, so that the website is accessible to users with disabilities and provides an inclusive user experience.
+- As a front-end developer, I want to develop a responsive content template and homepage for the website, so that the website is visually appealing and easy to navigate on different devices.
+- As a data privacy expert, I want to implement GDPR requirements with Google Analytics using Consent API and Javascript, so that the website complies with relevant data privacy regulations and ensures user data is protected.
+
+#### Management 
+- As a project manager, I want to identify metrics for each category: Bundle (Webpack), Test (Playwright), and Application performance, so that we can measure the performance of the website and identify areas for improvement.
+- As a performance analyst, I want to measure user capacity, concurrent user capacity, storage requirements, bandwidth requirements, and other relevant statistics, so that we can accurately estimate the resources needed to support a certain number of users and ensure that the website can handle heavy traffic without downtime.
+- As a project administrator, I want to keep a log for each metric in a Google sheet and link to it on the Readme, so that we can easily maintain and update the metrics and track the progress of the project.
 
 
 # MyWebClass.Org Sprint Tasks
