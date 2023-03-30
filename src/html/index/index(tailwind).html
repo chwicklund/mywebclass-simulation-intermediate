@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <!--characterset UTF-8 Watch this: https://youtu.be/MijmeoH9LT4 -->
+    <meta charset="UTF-8">
+    <title>MyWebClass.org</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Basic meta info -->
+    <meta name="keywords" content="My Webclass Homepage">
+    <meta name="author" content="Keith Williams"/>
+    <meta name="description" content="A project to help educators integrate new technoliges into their teaching">
+
+    <!--OpenGraph meta -->
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content="assets/images/logo.png"/>
+    <meta property="og:url" content=""/>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="pt-5">
+<div class="container-fluid">
+    <header role="banner" class="fixed top-0 w-full">
+        <nav role="navigation" aria-label="Main navigation" class="bg-gray-900">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-between h-16">
+                    <a class="text-white text-xl font-bold leading-none" href="/">MyWebClass.org</a>
+                    <button class="navbar-toggler lg:hidden flex items-center px-3 py-2 border rounded text-gray-200 border-gray-400 hover:text-white hover:border-white focus:outline-none focus:ring focus:ring-gray-400 focus:ring-opacity-50"
+                            type="button" data-toggle="collapse"
+                            data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Toggle navigation</span>
+                    </button>
+                    <div class="hidden lg:flex lg:items-center lg:w-auto" id="navbarCollapse">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link px-3 py-2 rounded-md text-sm font-medium text-white hover:text-gray-300 focus:outline-none focus:text-gray-300 focus:bg-gray-700 transition duration-150 ease-in-out" href="content.html">Content Template</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="bg-white">
+        <div class="container mx-auto my-5">
+            <div class="flex flex-col lg:flex-row items-center justify-center border rounded-lg shadow-lg overflow-hidden">
+                <div class="lg:w-7/12 px-6 py-8">
+                    <h1 class="text-3xl font-bold leading-tight mb-4">Revolutionize your teaching</h1>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-8">Empower your students with cutting-edge software engineering skills. Join MyWebClass and discover advanced technologies that will transform your teaching and their learning journey.</p>
+                    <div class="flex flex-col sm:flex-row gap-4 mb-8">
+                        <button type="button" class="btn btn-success btn-lg px-4 py-2 text-lg font-bold">Start Here</button>
+                    </div>
+                </div>
+                <div class="lg:w-5/12 lg:-mt-px">
+                    <img class="w-full h-full object-cover object-center rounded-lg" src="assets/images/teacher.gif" alt="a teacher with students">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="py-5 bg-gray-100">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap -mx-4">
+                <div class="md:w-1/4 px-4">
+                    <h5 class="text-lg font-semibold mb-4">About Us</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="story.html" class="nav-link p-0 text-gray-600 hover:text-gray-800">Our Story</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="privacy.html" class="nav-link p-0 text-gray-600 hover:text-gray-800">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/4 px-4">
+                    <h5 class="text-lg font-semibold mb-4">Share on Social Media</h5>
+                    <ul class="nav">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-gray-600 hover:text-gray-800"><i class="bi bi-linkedin me-2"></i></a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-gray-600 hover:text-gray-800"><i class="bi bi-twitter me-2"></i></a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-gray-600 hover:text-gray-800"><i class="bi bi-facebook me-2"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2 md:ml-auto px-4 mt-4 md:mt-0">
+                    <form>
+                        <h5 class="text-lg font-semibold mb-4">Subscribe to our newsletter</h5>
+                        <p class="text-gray-600 mb-4">Monthly digest of what's new and exciting from us.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <label for="newsletter1" class="sr-only">Email address</label>
+                            <input id="newsletter1" type="text" class="form-input w-full md:w-auto" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
