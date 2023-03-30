@@ -23,85 +23,89 @@ So, let's get cooking, MyWebClassers! By adopting lean and agile practices, we c
 
 ### Requirements by Charles & Eileen (see list below, or [Project Requirement Analysis Doc](https://docs.google.com/document/d/12GCZA53vmLjIIR0zH1ZvkNlxDWiLG00QO8CI45ryqt8/edit?usp=sharing))
 
-### Themes
-- Testing
-- DevOps
-- Development
-- Management
+### Theme 1: Front-end Development
 
-### Initiatives
-#### Front-End Testing
-- Implement pages with different CSS frameworks
-- Test Next.js performance
-- Automate browser testing
-- Measure page load metrics
-- Include industry statistics in the final report
+#### Initiative 1: CSS Framework Evaluation
+- User Story 1: As a front-end developer, I want to evaluate and compare the performance of three different CSS frameworks so that I can choose the best one for my project.
+- User Story 2: As a front-end developer, I want to implement the homepage and content page using each of the three CSS frameworks and in plain HTML and CSS so that I can assess their ease of use and compatibility with the project requirements.
 
-#### Backend Testing
-- Test Oracle server with artillery and Playwright
+#### Initiative 2: Browser Testing Automation
+- User Story 1: As a front-end developer, I want to use Playwright to automate browser testing of the pages in the project so that I can ensure their functionality and identify any issues.
+- User Story 2: As a front-end developer, I want to create tests for Next.js, Bootstrap, Tailwind, and any other version of the site to ensure their compatibility and functionality.
 
-#### DevOps Tools Testing and Evaluation
-- Test and evaluate node package managers
-- Test and evaluate build tools
-- Implement and check DevOps pipeline with GitHub Actions
-- Include checks for coding standards
-- Generate LightHouse report with videos and screenshots
-- Automatically test W3C validation, handicap accessibility, and JavaScript style
-- Run CodeQL using a GitHub action
-- Run ESLint and upload the report to GitHub Actions
-- Measure relevant metrics
-- Create easy-to-follow instructions
-- Create a document explaining the tools and results of tests
+#### Initiative 3: Performance Measurement
+- User Story 1: As a front-end developer, I want to measure the page load time, accessibility score, best practices score, FCP, TTI, TBT, CLS, page size, number of requests, bundle size, overall size, and other relevant statistics so that I can optimize the website's performance.
+- User Story 2: As a front-end developer, I want to include industry statistics for each of these metrics in the final report so that stakeholders can understand how the website's performance compares to others in the same industry.
 
-#### Development
-- Conduct legal research and implement necessary changes
-- Conduct internationalization research and implement features
-- Conduct SEO research and implement changes
-- Conduct web accessibility research and implement changes
-- Develop a responsive content template and homepage
-- Implement GDPR requirements with Google Analytics
+### Theme 2: Development Tools
 
-#### Management
-- Identify metrics for each category
-- Measure relevant metrics
-- Include industry statistics in the final report
-- Keep a log for each metric in a Google sheet and link to it on your Readme
+#### Initiative 1: Package Manager Evaluation
+- User Story 1: As a developer, I want to test and evaluate different node package managers to determine which one is the fastest so that I can optimize the build process.
 
-### User Stories
-#### Front-End Testing
-- As a developer, I want to choose and implement different CSS frameworks to compare performance and design.
-- As a tester, I want to use Playwright to automate browser testing of the website to ensure functionality and compatibility with different frameworks.
-- As a manager, I want to measure the website's page load time, accessibility score, and other relevant metrics to improve performance and user experience.
-- As a writer, I want to include industry statistics in the final report to provide context and benchmarking for the website's metrics.
+#### Initiative 2: Build Tool Evaluation
+- User Story 1: As a developer, I want to test and evaluate build tools like Webpack, Vite, and EsBuild to determine their efficiency so that I can optimize the build process.
 
-#### Backend Testing
-- As a developer, I want to test the Oracle server with artillery and Playwright to evaluate performance and functionality.
+#### Initiative 3: DevOps Pipeline Implementation
+- User Story 1: As a developer, I want to implement and check the DevOps pipeline using GitHub Actions for quality control so that I can ensure the website's quality and reliability.
+- User Story 2: As a developer, I want to include checks for coding standards relevant to the project (JavaScript, CSS, and HTML) so that the codebase is maintainable and easy to read.
 
-#### DevOps Tools Testing and Evaluation
-- As a developer, I want to test and evaluate different node package managers to determine which one is the fastest, so that I can improve the development and deployment speed.
-- As a developer, I want to test and evaluate different node package managers to determine which one is the fastest, so that I can improve the development and deployment speed.
-- As a developer, I want to test and evaluate build tools like Webpack, Vite, and EsBuild to determine their efficiency, so that I can improve the development and deployment speed.
-- As a developer, I want to implement and check the DevOps pipeline using GitHub Actions for quality control, so that I can ensure code quality and compliance with coding standards.
-- As a developer, I want to generate a LightHouse Report with videos and screenshots of failed tests when GitHub actions run and automatically upload it to view in GitHub Actions, so that I can ensure website performance and compliance with accessibility and best practices standards.
-- As a developer, I want to automatically test W3C validation, handicap accessibility, and JavaScript style, so that I can ensure compliance with coding standards and accessibility for users with disabilities.
-- As a developer, I want to run CodeQL using a GitHub action and upload the report to GitHub Actions, so that I can ensure code quality and compliance with coding standards.
-- As a developer, I want to run ESLint and upload the report to GitHub Actions, so that I can ensure code quality and compliance with coding standards.
-- As a developer, I want to create easy-to-follow instructions for local installation and how the developer should use the tools above, so that other developers can use the same tools and follow the same standards.
-- As a developer, I want to measure the following metrics: deployment time, developer environment setup time, test running time, and other relevant statistics, so that I can improve the development and deployment speed.
-- As a developer, I want to create a document that explains my tools and how I use them, as well as the results of my test showing the relevant metrics I collected, so that other developers can understand how to use the tools and interpret the results.
+### Theme 3: Quality Assurance
 
-#### DevOps Tools Testing and Evaluation
-- As a legal expert, I want to conduct research to ensure that the website complies with relevant laws and regulations, so that we can avoid legal issues and create a trustworthy platform for users.
-- As an internationalization specialist, I want to conduct research and implement internationalization features for the website, so that users from different countries and cultures can access the website in their preferred language and with culturally relevant content.
-- As an SEO specialist, I want to conduct research, implement changes, and perform testing, so that the website can improve its visibility and ranking on search engines and attract more users.
-- As an accessibility expert, I want to conduct web accessibility research, implement changes, perform testing, and resolve any issues that arise, so that the website is accessible to users with disabilities and provides an inclusive user experience.
-- As a front-end developer, I want to develop a responsive content template and homepage for the website, so that the website is visually appealing and easy to navigate on different devices.
-- As a data privacy expert, I want to implement GDPR requirements with Google Analytics using Consent API and Javascript, so that the website complies with relevant data privacy regulations and ensures user data is protected.
+#### Initiative 1: Testing Automation and Reporting
+- User Story 1: As a QA engineer, I want to use Playwright to automate browser testing of the pages in the project so that I can ensure their functionality and identify any issues.
+- User Story 2: As a QA engineer, I want to generate a LightHouse Report with videos and screenshots of failed tests when GitHub actions run and automatically upload it to view in GitHub Actions so that stakeholders can understand the website's quality and reliability.
 
-#### Management 
-- As a project manager, I want to identify metrics for each category: Bundle (Webpack), Test (Playwright), and Application performance, so that we can measure the performance of the website and identify areas for improvement.
-- As a performance analyst, I want to measure user capacity, concurrent user capacity, storage requirements, bandwidth requirements, and other relevant statistics, so that we can accurately estimate the resources needed to support a certain number of users and ensure that the website can handle heavy traffic without downtime.
-- As a project administrator, I want to keep a log for each metric in a Google sheet and link to it on the Readme, so that we can easily maintain and update the metrics and track the progress of the project.
+#### Initiative 2: Code Quality Analysis
+- User Story 1: As a QA engineer, I want to automatically test W3C validation, handicap accessibility, and JavaScript style so that I can ensure the website's quality and maintainability.
+- User Story 2: As a QA engineer, I want to run CodeQL using a GitHub action and upload the report to GitHub Actions so that stakeholders can understand the website's quality and security.
+
+### Theme 4: Website Compliance and Accessibility
+
+#### Initiative 1: Legal Compliance
+
+- User story 1: As a website owner, I want to ensure that my website complies with relevant laws and regulations, so that I can avoid legal issues and penalties.
+- User story 2: As a website visitor, I want to know that the website I'm visiting is trustworthy and complies with applicable laws and regulations, so that I can feel safe and secure.
+
+#### Initiative 2: Web Accessibility
+
+- User story 1: As a website owner, I want to ensure that my website is accessible to users with disabilities, so that everyone can access and benefit from the content.
+- User story 2: As a website visitor with a disability, I want to be able to access and navigate the website easily, so that I can enjoy the same experience as other visitors.
+
+### Theme 5: Website Design and User Experience
+
+#### Initiative 1: Responsive Design
+
+- User story 1: As a website owner, I want to ensure that my website is responsive and works well on different devices, so that visitors can access the content from anywhere.
+- User story 2: As a website visitor, I want to be able to access and navigate the website easily on my mobile device, so that I can use it on the go.
+
+#### Initiative 2: User Experience
+
+- User story 1: As a website owner, I want to provide a great user experience to visitors, so that they enjoy using the website and come back for more.
+- User story 2: As a website visitor, I want to find the information I need quickly and easily, so that I can accomplish my goals and have a positive experience.
+
+### Theme 6: Performance and Optimization
+
+#### Initiative 1: Performance Testing
+
+- User story 1: As a website owner, I want to test the performance of my website to ensure that it loads quickly and efficiently, so that visitors don't get frustrated and leave.
+- User story 2: As a website visitor, I want the website to load quickly and smoothly, so that I can access the content without delays.
+
+#### Initiative 2: Optimization
+
+- User story 1: As a website owner, I want to optimize the website to improve its performance and speed, so that visitors have a great user experience and stay engaged.
+- User story 2: As a website visitor, I want the website to be fast and responsive, so that I can access the content quickly and efficiently.
+
+### Theme 7: Deployment and Maintenance
+
+#### Initiative 1: Deployment
+
+- User story 1: As a website owner, I want to deploy the website easily and efficiently, so that it can be accessed by visitors as soon as possible.
+- User story 2: As a website visitor, I want to be able to access the website without any issues or delays, so that I can use it right away.
+
+#### Initiative 2: Maintenance
+
+- User story 1: As a website owner, I want to maintain the website and keep it up to date, so that it stays relevant and provides value to visitors.
+- User story 2: As a website visitor, I want to know that the website is being maintained and updated regularly, so that I can continue to rely on it for information and services.
 
 
 # MyWebClass.Org Sprint Tasks
